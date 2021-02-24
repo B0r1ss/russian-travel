@@ -1,0 +1,9 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  grid-area: place__website;
+  max-width: 456px;
+  min-height: 46px;
+  text-align: start;
+  justify-content: flex-end;
+}
