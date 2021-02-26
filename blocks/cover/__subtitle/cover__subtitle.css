@@ -3,7 +3,6 @@
   padding: 0;
   max-width: 360px;
   min-height: 66px;
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -12,4 +11,19 @@
   text-align: center;
   z-index: 2;
   opacity: 1;
+}
+
+@media screen and (max-width:767px) {
+  .cover__subtitle {
+    max-width: 300px;
+    font-size: 15px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (max-width:544px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+  }
 }
