@@ -1,5 +1,5 @@
 .intro__text {
-  max-width: 690px;
+  max-width: 984px;
   width: 100%;
   margin: 40px 0 0;
   font-style: normal;
@@ -9,10 +9,8 @@
   text-align: start;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .intro__text {
-    font-size: 16px;
-    line-height: 163%;
+    width: 90%;
   }
 }

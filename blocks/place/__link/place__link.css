@@ -5,7 +5,7 @@
   line-height: 22px;
   /* identical to box height, or 122% */
   color: #FFFFFF;
-  transform: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .place__link:hover {
